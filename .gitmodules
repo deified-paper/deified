@@ -1,0 +1,12 @@
+[submodule "llvm-project"]
+	path = llvm/llvm-project
+	url = git@github.com:deified/llvm-project.git
+	branch = master
+[submodule "musl"]
+	path = rtlib/musl
+	url = git@github.com:deified/musl.git
+	branch = master
+[submodule "verifier/abseil"]
+	path = verifier/abseil
+	url = https://github.com/abseil/abseil-cpp.git
+	branch = master
